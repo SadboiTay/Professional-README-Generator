@@ -15,12 +15,13 @@ function generateMarkdown(data) {
 
   const { username, email, title, description, installation, usage, license, contributing, tests } = data;
 
-  return `# ${title} [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  return `# ${title} 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Description
+  # Description
   ${description}
 
-  ## Table of Contents
+  # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -28,22 +29,22 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## Installation
+  # Installation
   ${installation}
 
-  ## Usage
+  # Usage
   ${usage}
 
-  ## License
+  # License
   ${license}
 
-  ## Contributing
+  # Contributing
   ${contributing}
 
-  ## Tests
+  # Tests
   ${tests}
 
-  ## Questions
+  # Questions
 
   * GitHub user: ${username}
   * https://github.com/${username}
