@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node.js CLI app that gathers prompted information from the user to dynamically generate a professional README, letting developers focus more on their code!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadboiTay/Professional-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SadboiTay/Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/SadboiTay/Professional-README-Generator#readme"
 }
