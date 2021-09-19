@@ -1,12 +1,8 @@
-# Professional README Generator 
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+# Giga Chad 
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   # Description
-  Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
-    
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
-
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et varius orci. Mauris luctus rutrum nulla ac hendrerit. Etiam quis odio ipsum. Integer quis iaculis orci. Nullam sit amet molestie nisi. Phasellus lacus arcu, vehicula in quam vitae, finibus sagittis ex. Sed vitae finibus lectus, nec blandit turpis. Etiam pharetra odio a elementum blandit. Sed congue mauris id gravida suscipit. Morbi vel quam magna. Suspendisse posuere erat eu neque varius, in vulputate odio cursus. Phasellus at neque nulla. Nullam egestas vehicula lectus, in aliquam ex euismod et. Sed faucibus vulputate nibh, id vestibulum tortor tempor eget. Phasellus at vulputate neque, eu suscipit mi. Aenean turpis velit, viverra at ipsum quis, ultrices commodo est.
 
   # Table of Contents
   * [Installation](#installation)
@@ -17,26 +13,22 @@ There's no one right way to structure a good README. There is one very wrong way
   * [Questions](#questions)
 
   # Installation
-  What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+  Sed facilisis dolor porttitor orci elementum fringilla. Curabitur faucibus lorem quam, ac luctus sapien maximus mollis. Aenean eu dictum risus. Fusce sapien mi, aliquet ut pharetra vel, molestie sit amet nisl. Morbi nec urna mattis ante vehicula consectetur nec sed tellus. Vivamus urna tellus, rutrum sed aliquam et, placerat vel urna. Suspendisse potenti. Nulla non mi vulputate lorem porttitor sollicitudin congue sit amet odio. Aenean lobortis nulla ac varius vulputate.
 
   # Usage
-  Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    
-    ![alt text](assets/images/screenshot.png)
+  Quisque elit massa, bibendum vel ipsum ut, ullamcorper hendrerit dolor. Suspendisse bibendum vestibulum dolor lobortis fermentum. Suspendisse ex mi, imperdiet quis enim egestas, sagittis ultricies arcu. Quisque a purus ipsum. Nam condimentum lectus augue, nec varius mauris ullamcorper a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer placerat justo convallis, semper magna a, varius est. Sed luctus magna at nisl aliquam, sit amet fermentum mauris semper. Quisque congue sagittis libero, consequat fermentum sapien rhoncus non. Morbi vel scelerisque eros. Pellentesque sem diam, convallis vitae urna sed, lobortis pulvinar felis. Suspendisse ultricies mauris odio, sed placerat nibh porttitor a. Donec eget quam quis nulla posuere venenatis eu eget nunc.
 
   # License
-  ## The Unlicense
-  A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
+  ## Mozilla Public License 2.0
+  Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work.
 
-  View terms and conditions here: [The Unlicense](../utils/licenses/unlicense.txt)
+  View terms and conditions here: [Mozilla Public License 2.0](../utils/licenses/mozillalicense.txt)
 
   # Contributing
-  If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The Contributor Covenant is an industry standard, but you can always write your own.
+  Ut vel mauris diam. Pellentesque magna justo, molestie sit amet metus id, molestie tempor ante. Duis hendrerit, libero a fringilla elementum, nisi nisi interdum ante, sed aliquam erat tortor tempor metus. Maecenas rutrum magna ut metus finibus, vitae condimentum justo lobortis. Donec sed arcu at nisl accumsan aliquam. Sed accumsan nisi vel elit facilisis porttitor. Duis semper sodales ipsum, eu maximus ex maximus ut. Vivamus viverra lacus eu velit varius dictum. Cras fringilla lacinia faucibus.
 
   # Tests
-  Go the extra mile and write tests for your application. Then provide examples on how to run them.
+  Nam ut sem lacus. Phasellus aliquet pretium velit non iaculis. Quisque imperdiet dignissim dolor, et euismod nunc bibendum vitae. Nunc eu malesuada lorem. Ut urna ligula, vulputate eget lacus eleifend, maximus euismod felis. Vivamus luctus vel enim ornare lobortis. Donec finibus ultrices odio, id dignissim tortor tempus vitae. Nunc quis faucibus purus. Integer mollis pellentesque tellus, at accumsan arcu pretium non. Nam finibus accumsan turpis at dapibus. Morbi et accumsan felis, quis suscipit nunc. In feugiat pellentesque sapien sit amet fermentum.
 
   # Questions
 
