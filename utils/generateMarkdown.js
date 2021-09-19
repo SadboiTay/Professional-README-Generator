@@ -1,5 +1,19 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+const renderLicenseTitle = confirmLicense => {
+  if (confirmLicense) {
+    return `# License`;
+  } else {
+    return (``);
+  }
+};
+
+const renderLicenseTOC = confirmLicense => {
+  if (confirmLicense) {
+    return `* [License](#license)`;
+  } else {
+    return (``);
+  }
+}
+
 const renderLicenseBadge = license => {
   if (license === 'Apache License 2.0') {
     return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
@@ -37,7 +51,7 @@ const renderLicenseBadge = license => {
   if (license === 'The Unlicense') {
     return '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)';
   }
-  if (license === '') {
+  if (!license) {
     return '';
   }
 }
@@ -80,6 +94,9 @@ const renderLicenseLink = license => {
   }
   if (license === 'The Unlicense') {
     return `View terms and conditions here: [The Unlicense](../utils/licenses/unlicense.txt)`;
+  }
+  if (!license) {
+    return '';
   }
 }
 
@@ -134,12 +151,15 @@ const renderLicenseSection = license => {
     return `## The Unlicense
   A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.`;
   }
+  if (!license) {
+    return '';
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-  const { username, email, title, description, installation, usage, license, contributing, tests } = data;
+  const { username, email, title, description, installation, usage, confirmLicense, license, contributing, tests } = data;
 
   return `# ${title} 
   ${renderLicenseBadge(license)}
@@ -150,7 +170,7 @@ function generateMarkdown(data) {
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+  ${renderLicenseTOC(confirmLicense)}
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -161,7 +181,7 @@ function generateMarkdown(data) {
   # Usage
   ${usage}
 
-  # License
+  ${renderLicenseTitle(confirmLicense)}
   ${renderLicenseSection(license)}
 
   ${renderLicenseLink(license)}

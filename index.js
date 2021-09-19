@@ -84,6 +84,12 @@ const questions = [
         }
     },
     {
+        type: "confirm",
+        name: "confirmLicense",
+        message: "Would you like to include a license for your project?",
+        default: true
+    },
+    {
         type: "list",
         name: "license",
         message: "Select a license for your project:",
@@ -100,7 +106,14 @@ const questions = [
             'Mozilla Public License 2.0',
             'SIL Open Font License 1.1',
             'The Unlicense'
-        ]
+        ],
+        when: ({ confirmLicense }) => {
+            if (confirmLicense) {
+            return true;
+            } else {
+            return false;
+            }
+        }
     },
     {
         type: "input",
