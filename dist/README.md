@@ -1,5 +1,5 @@
 # Professional README Generator 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
   # Description
   Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
@@ -27,7 +27,10 @@ To add a screenshot, create an assets/images folder in your repository and uploa
     ![alt text](assets/images/screenshot.png)
 
   # License
-  MIT
+  ## The Unlicense
+  A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+  View terms and conditions here: [The Unlicense](../utils/licenses/unlicense.txt)
 
   # Contributing
   If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The Contributor Covenant is an industry standard, but you can always write your own.

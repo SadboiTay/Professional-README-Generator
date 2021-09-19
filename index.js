@@ -1,8 +1,6 @@
 // TODO: Include packages needed for this application
-const { triggerAsyncId } = require('async_hooks');
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { getMaxListeners } = require('process');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -147,7 +145,7 @@ There's no one right way to structure a good README. There is one very wrong way
 To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     
     ![alt text](assets/images/screenshot.png)`,
-    license: 'MIT',
+    license: 'The Unlicense',
     contributing: 'If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The Contributor Covenant is an industry standard, but you can always write your own.',
     tests: 'Go the extra mile and write tests for your application. Then provide examples on how to run them.'
 }
